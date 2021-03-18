@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"No tests yet",
+    "test": "echo \"No tests yet ",
     "start": "node server.js"
   },
   "repository": {
