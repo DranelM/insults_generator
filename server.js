@@ -32,6 +32,7 @@ app.get('/bullies', function (req, res) {
 
 app.use("/public", express.static('public'));
 
-console.log("Running on http://localhost:3000")
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(port);
+console.log(`listening on http://localhost:${port}`);
 
